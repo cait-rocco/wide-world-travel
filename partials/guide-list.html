@@ -1,0 +1,8 @@
+<div ng-controller="GuideController">
+		<h2>Available guides:</h2>
+		<ul>
+		    <li ng-repeat="guide in guideList">
+		    	{{guide.title}}, {{guide.type}}, ${{guide.price}}
+		    </li>
+		</ul>
+	</div>
